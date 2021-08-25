@@ -1,4 +1,57 @@
+/*                 */
+/* General Styles */
+/*               */
+
 body {
-    color: #fbc746;
+    margin: 0px;
     background-color: #450000;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: goldenrod;
+}
+
+/*                 */
+/* Header Styles  */
+/*               */
+
+.heading-wrapper {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-bottom: 2vh solid goldenrod;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2.5vw;
+    padding-top: 3vh;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2.5vw;
+    padding-bottom: 3vh;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+.active-link a {
+    text-decoration: underline;
+    color: maroon;
+    font-size: 2rem;
+}
+
+/*                 */
+/* Footer Styles  */
+/*               */
