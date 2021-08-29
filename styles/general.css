@@ -57,3 +57,21 @@ h1, h2, h3, h4, h5, h6 {
 /*                 */
 /* Footer Styles  */
 /*               */
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-top: 2vh solid goldenrod;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+/*              */
+/* Temp styles */
+/*            */
+
+.footer-center-logo {
+    color: maroon;
+}
