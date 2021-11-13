@@ -25,13 +25,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-wrapper {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     align-items: center;
-    margin: 2.5vw;
-    padding-top: 3vh;
-    transition: 0.75s;
 }
+
+
 
 .links-wrapper {
     display: flex;
