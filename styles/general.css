@@ -29,16 +29,19 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 
 
 .links-wrapper {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
     align-items: center;
-    margin: 2.5vw;
-    padding-bottom: 3vh;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .nav-link a {
