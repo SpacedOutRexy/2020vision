@@ -1,5 +1,5 @@
-/* .heading-wrapper {
-    display:flex;
-    justify-content: space-evenly;
-    align-content: center;
-} */
+.welcome-message {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
