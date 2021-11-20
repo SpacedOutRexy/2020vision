@@ -32,3 +32,41 @@
     grid-template-columns: 1fr 1fr 1fr;
     font-weight: 900;
 }
+
+.descriptions-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.link-description {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.link-description-title a {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 3rem;
+    transition: 0.75s;
+}
+
+.link-description-title a:hover {
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.link-description-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.link-description-body {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.cursed-description {
+    margin-top: 80;
+}
